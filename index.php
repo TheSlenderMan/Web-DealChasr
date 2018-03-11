@@ -31,6 +31,9 @@
         <div id="venue-login" >
             PARTNER LOGIN
         </div>
+		<div id="become-partner" >
+            BECOME A PARTNER
+        </div>
         <div id="master-container" >
             <div id="logo-container" ></div>
 			<div id="intro-container" >
@@ -39,8 +42,11 @@
 						<h1>Get Deals Right Now!</h1>
 						<br />
 						<span class="intro-sub-text" >Find local deals and vouchers for your<br />favourite Pubs, Bars, Clubs and Venues.</span>
+						<br /><br />
+						<img src="http://img.almanacmedia.co.uk/google-play-badge.png" width='135' height='60' /> <!--img src="http://img.almanacmedia.co.uk/app-store-badge.png" width='135' height='60' /-->
 					</div>
-					<img src="http://img.almanacmedia.co.uk/web-mockup.png" style="float:right;margin-right:15%;width:500px;height:auto;" />
+					<img class='mockup-img' src="http://img.almanacmedia.co.uk/web-mockup.png" style="" />
+					<div style='clear:both;' ></div>
 				</div>
 			</div>
 			<div id="seperator-one" ></div>
@@ -50,7 +56,7 @@
 				<img src="http://img.almanacmedia.co.uk/web-chase.png" style="float:left;width:90px;height:auto;margin-right:15px;filter: invert(100%);" align="top" />
 				<span class="moment-small-header" >CHASE!</span><br /><br />
 				<span style="text-align:left;" >Pubs, bars, clubs and venues near you will release vouchers which are instantly searchable through the app.<br />
-				Chase down your favourite deal on the map!</span>
+				Chase down your favourite deal on the map!</span><br /><br />
 				<div style="clear:both;" ></div>
 				<br /><br /><br /><br />
 				<img src="http://img.almanacmedia.co.uk/web-catch.png" style="float:left;width:90px;height:auto;margin-right:15px;filter: invert(100%);" align="top" />
@@ -67,7 +73,10 @@
 			</div>
 			<div id="seperator-two" ></div>
 			<div id="footer" >
-			
+				<br /><br />
+				<img src="images/dealspotrlogo.png" style="width:200px;height:auto;" /><br /><br />
+				<img src="http://img.almanacmedia.co.uk/google-play-badge.png" width='135' height='60' /><br /><br />
+				&copy; 2018 DealChasr
 			</div>
         </div>
     </body>

@@ -18,4 +18,8 @@ $(document).ready(function() {
     $(document).on("click", "#venue-login", function(){
        window.location.href = "http://my.dealchasr.co.uk";
     });
+	
+	$(document).on("click", "#become-partner", function(){
+       window.location.href = "http://dealchasr.co.uk/becomeapartner/";
+    });
 });

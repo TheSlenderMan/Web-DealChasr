@@ -4,14 +4,19 @@ body{margin:0;background-color:#F9A603;overflow-x:hidden;}
 
 #venue-login{position:fixed;top:30px;left:0;font-family:'Josefin Sans', sans-serif;
     font-size:18px;color:#F9A603;cursor:pointer;padding:10px;background-color: #FFFFFF;z-index:99999;}
+#become-partner{position:fixed;top:80px;left:0;font-family:'Josefin Sans', sans-serif;
+    font-size:18px;color:#F9A603;cursor:pointer;padding:10px;background-color: #FFFFFF;z-index:99999;}
 
 #logo-container{position:relative;top:0;left:0;width:100vw;height:500px;margin:0 0 0 0;text-align:center;
                 background-position:center center;background-repeat:no-repeat;background-size:contain;}
 
 #intro-container{position:relative;top:40px;left:0;width:100vw;height:500px;}
-#intro-container .intro-text{float:left;margin:0 0 0 80px;width:30%;text-align:left;padding:100px 0 0 150px;}
+#intro-container .intro-text{float:left;margin:0 0 0 80px;width:25%;text-align:left;padding:80px 0 0 150px;}
 #intro-container .intro-text h1{font-family:'Josefin Sans', sans-serif;font-size:34px;color:#FFF;}
 #intro-container .intro-sub-text{font-family:'Josefin Sans', sans-serif;font-size:18px;color:#FFF;}
+
+.google-button{}
+.mockup-img{float:right;margin-right:10%;width:500px;height:auto;}
 
 #seperator-one{position:relative;top:20px;left:0;width:100vw;height:400px;background-image:url(http://img.almanacmedia.co.uk/cocktail.jpg);
 background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
@@ -23,4 +28,27 @@ font-size:20px;color:#FFF;padding:0 0 0 0;margin:0 0 0 -300px;}
 #dealchasr-moment h1{font-family:'Josefin Sans', sans-serif;font-size:40px;color:#FFF;text-align:center;}
 #dealchasr-moment .moment-small-header{font-family:'Josefin Sans', sans-serif;font-size:24px;color:#FFF;font-weight:bold;}
 
-#footer{position:relative;top:150px;left:0;width:100vw;height:500px;background-color:#FFF;}
+#footer{position:relative;top:150px;left:0;width:100vw;background-color:#FFF;text-align:center;color:#F9A603;padding:0 0 20px 0;}
+
+@media(max-width:700px){
+	#venue-login{position:fixed;top:30px;left:0;font-family:'Josefin Sans', sans-serif;
+font-size:12px;color:#F9A603;cursor:pointer;padding:10px;background-color: #FFFFFF;z-index:99999;}
+	#become-partner{position:fixed;top:80px;left:0;font-family:'Josefin Sans', sans-serif;
+font-size:12px;color:#F9A603;cursor:pointer;padding:10px;background-color: #FFFFFF;z-index:99999;}
+	
+	#intro-container .intro-text{float:none;position:relative;margin:0 0 0 20px;width:80%;text-align:left;padding:0 0 0 0;height:200px;}
+	#intro-container img{float:right;margin-top:0;}
+	
+	.google-button{position:relative;margin-top:-50px !important;}
+	
+	#seperator-one{position:relative;top:20px;left:0;width:100vw;height:200px;background-image:url(http://img.almanacmedia.co.uk/cocktail.jpg);
+background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
+	#seperator-two{position:relative;top:20px;left:0;width:100vw;height:200px;background-image:url(http://img.almanacmedia.co.uk/web-group.jpg);
+background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
+	
+	#dealchasr-moment{position:relative;top:40px;left:50%;width:80%;text-align:left;font-family:'Josefin Sans', sans-serif;
+font-size:14px;color:#FFF;padding:0 0 0 0;margin:0 0 0 -40%;}
+	#dealchasr-moment h1{width:100%;font-family:'Josefin Sans', sans-serif;font-size:24px;color:#FFF;text-align:center;}
+	#dealchasr-moment .moment-small-header{font-family:'Josefin Sans', sans-serif;font-size:18px;color:#FFF;font-weight:bold;}
+	
+}
