@@ -63,8 +63,15 @@ foreach($invoiceData AS $k => $v){
 			$email->setSubject("Your DealChasr Invoice " . strtoupper(date("M y", time())));
 			$email->executeMail();
 			
+			if($venueDetails['amount'] == 0){
+				$paid = 1;
+			} else {
+				$paid = 0;
+			}
+			
 			$addInvoice = $conn->prepare("INSERT INTO ds_invoices (invoicePaid, invoiceSent, venueID, amount, redemptions, invoiceDate)
-										VALUES (0, 1, :vid, :amount, :red, :date)");
+										VALUES (:paid, 1, :vid, :amount, :red, :date)");
+			$addInvoice->bindParam(":paid", $paid);
 			$addInvoice->bindParam(":vid", $k);
 			$addInvoice->bindParam(":amount", $venueDetails['amount']);
 			$addInvoice->bindParam(":red", $venueDetails['redemptionsThisMonth']);
