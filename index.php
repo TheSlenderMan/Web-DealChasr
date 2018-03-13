@@ -35,6 +35,7 @@
             BECOME A PARTNER
         </div>
         <div id="master-container" >
+			<div id="header-container" ></div>
             <div id="logo-container" ></div>
 			<div id="intro-container" >
 				<div class="mockups-container" >
